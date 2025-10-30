@@ -1,0 +1,61 @@
+.k-table-thead, .k-table-header, .k-table-group-sticky-header {
+    border-color: var(--kendo-color-border, rgba(0, 0, 0, 0.08));
+    color: var(--kendo-color-on-app-surface, #3d3d3d);
+    background-color: #1c2635;
+}
+
+.k-grid .k-grid-header.k-grid-draggable-header {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    touch-action: none;
+    border-radius: 10px;
+}
+
+.k-grid {
+    border-color: var(--kendo-color-border, rgba(0, 0, 0, 0.08));
+    color: var(--kendo-color-on-app-surface, #3d3d3d);
+    background-color: transparent;
+}
+
+.k-grid-header, .k-grouping-header, .k-grid-add-row, .k-grid-footer {
+    color: var(--kendo-color-on-app-surface, #3d3d3d);
+    background-color: #1c2635;
+    border-radius: 10px;
+}
+.k-master-row.k-table-row,
+.k-master-row.k-table-row.k-table-alt-row {
+    background-color: #1b1b1b
+}
+.k-grid .k-grid-header-wrap {
+    box-sizing: content-box;
+    border-radius: 10px;
+}
+.k-table-thead, .k-table-header, .k-table-group-sticky-header {
+    border-color: var(--kendo-color-border, rgba(0, 0, 0, 0.08));
+    color: #fff;
+    background-color: #1c2635;
+}
+.k-table, .k-data-table {
+    border-color: var(--kendo-color-border, rgba(0, 0, 0, 0.08));
+   color: #fff;
+    background-color: #1b1b1b
+}
+.customrow{
+   background-color: #1b1b1b
+}
+
+
+.k-grid-header, .k-grid-header-wrap, 
+.k-grouping-header, .k-grid .k-table-th, 
+.k-grid td, .k-grid .k-table-td {
+    border-color: #1c2635;
+    border-width: 0 0 1px 0px;
+}
+.k-grid-norecords-template {
+    background-color:transparent;
+    border-color: var(--kendo-color-border, rgba(0, 0, 0, 0.08));
+}
+.k-grid-content {
+    background-color:transparent;
+}

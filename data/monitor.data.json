@@ -1,0 +1,455 @@
+{
+    "currentStatus": [
+       
+        {
+            "name": "Normal",
+            "color": "#0c9a12",
+            "data": [
+                23
+            ]
+        },
+         {
+            "name": "Unknown",
+            "color": "#30a1d9",
+            "data": [
+                45
+            ]
+        },
+        {
+            "name": "Minor",
+            "color": "#ccc100",
+            "data": [
+                34
+            ]
+        },
+        {
+            "name": "Major",
+            "color": "#fa9d1c",
+            "data": [
+                12
+            ]
+        },
+         {
+            "name": "Critical",
+            "color": "#cd0f0f",
+            "data": [
+                12
+            ]
+        }
+    ],
+    "infraHealth": [
+        [
+            {
+                "title": "Components",
+                "value": 345,
+                "infraData": [
+                    {
+                        "name": "Components",
+                        "data": [
+                            {
+                                "name": "Critical",
+                                "color": "#cd0f0f",
+                                "y": 12
+                            },
+                            {
+                                "name": "Major",
+                                "color": "#fa9d1c",
+                                "y": 34
+                            },
+                            {
+                                "name": "Minor",
+                                "color": "#ccc100",
+                                "y": 45
+                            },
+                            {
+                                "name": "Unknown",
+                                "color": "#30a1d9",
+                                "y": 25
+                            },
+                            {
+                                "name": "Normal",
+                                "color": "#0c9a12",
+                                "y": 67
+                            }
+                        ],
+                        "details": []
+                    }
+                ]
+            },
+            {
+                "title": "Zone",
+                "value": 345,
+                "infraData": [
+                    {
+                        "name": "Zone",
+                        "data": [
+                            {
+                                "name": "Critical",
+                                "color": "#cd0f0f",
+                                "y": 1
+                            },
+                            {
+                                "name": "Major",
+                                "color": "#fa9d1c",
+                                "y": 12
+                            },
+                            {
+                                "name": "Minor",
+                                "color": "#ccc100",
+                                "y": 5
+                            },
+                            {
+                                "name": "Unknown",
+                                "color": "#30a1d9",
+                                "y": 35
+                            },
+                            {
+                                "name": "Normal",
+                                "color": "#0c9a12",
+                                "y": 67
+                            }
+                        ],
+                        "details": []
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "title": "Components",
+                "value": 345,
+                "infraData": [
+                    {
+                        "name": "Components",
+                        "data": [
+                            {
+                                "name": "Critical",
+                                "color": "#cd0f0f",
+                                "y": 12
+                            },
+                            {
+                                "name": "Major",
+                                "color": "#fa9d1c",
+                                "y": 34
+                            },
+                            {
+                                "name": "Minor",
+                                "color": "#ccc100",
+                                "y": 45
+                            },
+                            {
+                                "name": "Unknown",
+                                "color": "#30a1d9",
+                                "y": 25
+                            },
+                            {
+                                "name": "Normal",
+                                "color": "#0c9a12",
+                                "y": 67
+                            }
+                        ],
+                        "details": []
+                    }
+                ]
+            },
+            {
+                "title": "Zone",
+                "value": 45,
+                "infraData": [
+                    {
+                        "name": "Zone",
+                        "data": [
+                            {
+                                "name": "Critical",
+                                "color": "#cd0f0f",
+                                "y": 12
+                            },
+                            {
+                                "name": "Major",
+                                "color": "#fa9d1c",
+                                "y": 12
+                            },
+                            {
+                                "name": "Minor",
+                                "color": "#ccc100",
+                                "y": 50
+                            },
+                            {
+                                "name": "Unknown",
+                                "color": "#30a1d9",
+                                "y": 35
+                            },
+                            {
+                                "name": "Normal",
+                                "color": "#0c9a12",
+                                "y": 67
+                            }
+                        ],
+                        "details": []
+                    }
+                ]
+            },
+            {
+                "title": "Segments",
+                "value": 5,
+                "infraData": [
+                    {
+                        "name": "Segments",
+                        "data": [
+                            {
+                                "name": "Critical",
+                                "color": "#cd0f0f",
+                                "y": 12
+                            },
+                            {
+                                "name": "Major",
+                                "color": "#fa9d1c",
+                                "y": 12
+                            },
+                            {
+                                "name": "Minor",
+                                "color": "#ccc100",
+                                "y": 50
+                            },
+                            {
+                                "name": "Unknown",
+                                "color": "#30a1d9",
+                                "y": 35
+                            },
+                            {
+                                "name": "Normal",
+                                "color": "#0c9a12",
+                                "y": 67
+                            }
+                        ],
+                        "details": []
+                    }
+                ]
+            }
+        ]
+    ],
+    "dashboardSummary": [
+        [
+            {
+                "text": "Total Measurements",
+                "value": 420897,
+                "iconCss": "summaryTotalMeasurements"
+            },
+            {
+                "text": "Monitored Entities",
+                "value": 366,
+                "iconCss": "summaryTotalComponents",
+                "AllCompLink": "/final/servlet/com.eg.EgMonitorController?monCmd=componentList&from=TreeMenu&action=component&searchIndComps=checked&view=list&viewId=components&viewPageTitle=Components&viewTreeTitle=Component"
+            },
+            {
+                "text": "Open Problems",
+                "value": 243,
+                "iconCss": "summaryOpenProblems",
+                "alarmsLink": "/final/monitor/EgAlarms.jsp?"
+            },
+            {
+                "text": "Average Duration",
+                "value": "3D 4h",
+                "iconCss": "summaryAverageDuration"
+            },
+            {
+                "text": "Maximum Duration",
+                "value": "3D 11h",
+                "iconCss": "summaryMaximumDuration",
+                "alarmsLink": "/final/monitor/EgAlarms.jsp?maxDurationAlarmIds=1751842694840"
+            }
+        ],
+        [
+            {
+                "text": "Total Measurements",
+                "value": 489237,
+                "iconCss": "summaryTotalMeasurements"
+            },
+            {
+                "text": "Monitored Entities",
+                "value": 123,
+                "iconCss": "summaryTotalComponents",
+                "AllCompLink": "/final/servlet/com.eg.EgMonitorController?monCmd=componentList&from=TreeMenu&action=component&searchIndComps=checked&view=list&viewId=components&viewPageTitle=Components&viewTreeTitle=Component"
+            },
+            {
+                "text": "Open Problems",
+                "value": 12,
+                "iconCss": "summaryOpenProblems",
+                "alarmsLink": "/final/monitor/EgAlarms.jsp?"
+            },
+            {
+                "text": "Average Duration",
+                "value": "7D 4477h",
+                "iconCss": "summaryAverageDuration"
+            },
+            {
+                "text": "Maximum Duration",
+                "value": "6D 331h",
+                "iconCss": "summaryMaximumDuration",
+                "alarmsLink": "/final/monitor/EgAlarms.jsp?maxDurationAlarmIds=1751842694840"
+            }
+        ],
+        [
+            {
+                "text": "Total Measurements",
+                "value": 4897,
+                "iconCss": "summaryTotalMeasurements"
+            },
+            {
+                "text": "Monitored Entities",
+                "value": 1366,
+                "iconCss": "summaryTotalComponents",
+                "AllCompLink": "/final/servlet/com.eg.EgMonitorController?monCmd=componentList&from=TreeMenu&action=component&searchIndComps=checked&view=list&viewId=components&viewPageTitle=Components&viewTreeTitle=Component"
+            },
+            {
+                "text": "Open Problems",
+                "value": 2343,
+                "iconCss": "summaryOpenProblems",
+                "alarmsLink": "/final/monitor/EgAlarms.jsp?"
+            },
+            {
+                "text": "Average Duration",
+                "value": "1D 44h",
+                "iconCss": "summaryAverageDuration"
+            },
+            {
+                "text": "Maximum Duration",
+                "value": "4D 331h",
+                "iconCss": "summaryMaximumDuration",
+                "alarmsLink": "/final/monitor/EgAlarms.jsp?maxDurationAlarmIds=1751842694840"
+            }
+        ]
+    ],
+    "eventGlance":[{
+                      "min_max": "Max",
+                      "measure": "Time spent on garbage collection",
+                      "state": "GOOD",
+                      "test": "JVM Garbage Collector",
+                      "componentName": "egm_2",
+                      "componentIndex": " - G1 Young Generation",
+                      "value": "0.05",
+                      "valueUnit": "%",
+                      "links": "=JVM&site=NULL&msmt_host=&test=JvmGCDetailsTest%7Chypen%7CG1+Young+Generation&comptype=eG_Manager&tstate=GOOD&newWindow=false&prevPage=MainDashBoard"
+                    },
+                    {
+                      "min_max": "Min",
+                     "measure": "Free memory",
+                      "state": "GOOD",
+                      "test": "JVM Memory Usage",
+                      "componentName": "egm_5",
+                      "componentIndex": " - Non-Heap Memory:Memory Pool CodeCache",
+                      "value": "85.71",
+                      "valueUnit": "MB",
+                      "links": "ANULL&layer=JVM&site=NULL&msmt_host=&test=JvmMemoryDetailsTest%7Chypen%7CNon%7Chypen%7CHeap+Memory%7Ccolon%7CMemory+Pool+CodeCache&comptype=eG_Manager&tstate=GOOD&newWindow=false&prevPage=MainDashBoard"
+                    },
+                    {
+                      "min_max": "Max",
+                      "measure": "High CPU threads",
+                      "state": "GOOD",
+                      "test": "JVM Threads",
+                      "componentName": "egm_2",
+                      "componentIndex": "",
+                      "value": "0",
+                      "valueUnit": "",
+                      "links": "&layer=JVM&site=NULL&msmt_host=&test=JvmThreadTest%7Chypen%7C&comptype=eG_Manager&tstate=GOOD&newWindow=false&prevPage=MainDashBoard"
+                    },
+                    {
+                      "min_max": "Max",
+                      "measure": "Blocked threads",
+                      "state": "GOOD",
+                      "test": "JVM Threads",
+                      "componentName": "172.16.8.197%3A7077",
+                      "componentIndex": "",
+                      "value": "1",
+                      "valueUnit": "",
+                      "links": "/fi=JVM&site=NULL&msmt_host=&test=JvmThreadTest%7Chypen%7C&comptype=eG_Manager&tstate=GOOD&newWindow=false&prevPage=MainDashBoard"
+                    },
+                    {
+                      "min_max": "Max",
+                     "measure": "Deadlock threads",
+                      "state": "GOOD",
+                      "test": "JVM Threads",
+                      "componentName": "egm_2",
+                      "componentIndex": "",
+                      "value": "0",
+                      "valueUnit": "",
+                      "links": "/3ANULL&layer=JVM&site=NULL&msmt_host=&test=JvmThreadTest%7Chypen%7C&comptype=eG_Manager&tstate=GOOD&newWindow=false&prevPage=MainDashBoard"
+                    },
+                    {
+                      "min_max": "Max",
+                     "measure": "Disk usage",
+                      "state": "GOOD",
+                      "test": "Disk Space",
+                      "componentName": "172.16.8.197",
+                      "componentIndex": " - /boot",
+                      "value": "31.62",
+                      "valueUnit": "%",
+                      "links": "/final/monitor/EgSiteInfraView.jsp?qctr=2&fromalarm=&host=172.16.8.197%3A7077&layer=HOST&site=NULL&msmt_host=&test=DiskSpaceTest%7Chypen%7C%7Cfslash%7Cboot&comptype=eG_Manager&tstate=GOOD&newWindow=false&prevPage=MainDashBoard"
+                    },
+                    {
+                      "min_max": "Max",
+                      "measure": "CPU utilization",
+                      "state": "GOOD",
+                      "test": "System Details",
+                      "componentName": "egm_2",
+                      "componentIndex": " - Summary",
+                      "value": "28",
+                      "valueUnit": "%",
+                      "links": "/LL&layer=HOST&site=NULL&msmt_host=&test=SystemTest%7Chypen%7CSummary&comptype=eG_Manager&tstate=GOOD&newWindow=false&prevPage=MainDashBoard"
+                    },
+                    {
+                      "min_max": "Min",
+                     "measure": "Network availability",
+                      "state": "GOOD",
+                      "test": "Network",
+                      "componentName": "dfZ",
+                      "componentIndex": "",
+                      "value": "100",
+                      "valueUnit": "%",
+                      "links": "%3A27017&layer=NETWORK&site=NULL&msmt_host=172.16.8.197&test=NetworkTest%7Chypen%7C&comptype=Mongo_server&tstate=GOOD&newWindow=false&prevPage=MainDashBoard"
+                    },
+                    {
+                      "min_max": "Max",
+                      "measure": "Network latency (avg)",
+                      "state": "GOOD",
+                      "test": "Network",
+                      "componentName": "dfZ",
+                      "componentIndex": "",
+                      "value": "0",
+                      "valueUnit": "Seconds",
+                      "links": "/layer=NETWORK&site=NULL&msmt_host=172.16.8.197&test=NetworkTest%7Chypen%7C&comptype=Mongo_server&tstate=GOOD&newWindow=false&prevPage=MainDashBoard"
+                    },
+                    {
+                      "min_max": "Min",
+                     "measure": "Web availability",
+                      "state": "GOOD",
+                      "test": "HTTP",
+                      "componentName": "172.16.8.197%3A7077",
+                      "componentIndex": " - HomePage",
+                      "value": "100",
+                      "valueUnit": "%",
+                      "links": "/77&layer=TOMCAT_WEB_SERVER&site=NULL&msmt_host=172.16.8.197&test=HttpTest%7Chypen%7CHomePage&comptype=eG_Manager&tstate=GOOD&newWindow=false&prevPage=MainDashBoard"
+                    },
+                    {
+                      "min_max": "Max",
+                     "measure": "TCP retransmits",
+                      "state": "GOOD",
+                      "test": "TCP Traffic",
+                      "componentName": "egm_3",
+                      "componentIndex": "",
+                      "value": "0.26",
+                      "valueUnit": "%",
+                      "links": "site=NULL&msmt_host=&test=TcpTrafficTest%7Chypen%7C&comptype=eG_Manager&tstate=GOOD&newWindow=false&prevPage=MainDashBoard"
+                    },
+                    {
+                      "min_max": "Max",
+                      "measure": "Medium CPU threads",
+                      "state": "GOOD",
+                      "test": "JVM Threads",
+                      "componentName": "egm_2",
+                      "componentIndex": "",
+                      "value": "0",
+                      "valueUnit": "",
+                      "links": "L&msmt_host=&test=JvmThreadTest%7Chypen%7C&comptype=eG_Manager&tstate=GOOD&newWindow=false&prevPage=MainDashBoard"
+                    }]
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+  <g id="Group_15323" data-name="Group 15323" transform="translate(1781 17922)">
+    <rect id="Rectangle_1387" data-name="Rectangle 1387" width="17" height="17" transform="translate(-1781 -17922)" fill="#fff" opacity="0"/>
+    <g id="Group_15317" data-name="Group 15317" transform="translate(-1779.402 -17921.5)">
+      <g id="Group_15310" data-name="Group 15310" transform="translate(0 0)">
+        <path id="Union_33" data-name="Union 33" d="M0,9.1A6.9,6.9,0,0,1,4.782,2.533L6.7.083a.276.276,0,0,1,.394,0l1.922,2.45A6.9,6.9,0,1,1,0,9.1Z" transform="translate(0 0)" fill="#069b4a" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <path id="Path_1885" data-name="Path 1885" d="M12.949,17.767a.8.8,0,0,1-.568-.235L9.97,15.121a.8.8,0,0,1,1.137-1.136l1.7,1.693,3.482-5.569a.805.805,0,0,1,1.366.852L13.633,17.39a.8.8,0,0,1-.591.372A.71.71,0,0,1,12.949,17.767Z" transform="translate(-6.857 -4.24)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

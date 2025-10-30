@@ -1,0 +1,69 @@
+{
+    "tabs":[{},{},{},{},{}],
+    "currentStatus": [
+        {
+            "name": "Normal",
+            "color": "#363636ff",
+            "data": [
+                100
+            ]
+        },
+        {
+            "name": "Unknown",
+            "color": "#363636ff",
+            "data": [
+                100
+            ]
+        },
+        {
+            "name": "Minor",
+            "color": "#363636ff",
+            "data": [
+                100
+            ]
+        },
+        {
+            "name": "Major",
+            "color": "#363636ff",
+            "data": [
+                100
+            ]
+        },
+        {
+            "name": "Critical",
+            "color": "#363636ff",
+            "data": [
+                100
+            ]
+        }
+    ],
+    "componentDetails":[
+      {
+        "text": "Total Measurements",
+        "value": 0.0,
+        "iconCss": "summaryTotalMeasurements"
+      },
+      {
+        "text": "Monitored Entities",
+        "value": 0.0,
+        "iconCss": "summaryTotalComponents",
+        "AllCompLink": "/final/servlet/com.eg.EgMonitorController?monCmd=componentList&from=TreeMenu&action=component&searchIndComps=checked&view=list&viewId=components&viewPageTitle=Components&viewTreeTitle=Component"
+      },
+      {
+        "text": "Open Problems",
+        "value": 0.0,
+        "iconCss": "summaryOpenProblems",
+        "alarmsLink": "/final/monitor/EgAlarms.jsp?"
+      },
+      {
+        "text": "Average Duration",
+        "value": "0D 0h",
+        "iconCss": "summaryAverageDuration"
+      },
+      {
+        "text": "Maximum Duration",
+        "value": "0D 0h",
+        "iconCss": "summaryMaximumDuration",
+        "alarmsLink": "/final/monitor/EgAlarms.jsp?maxDurationAlarmIds=1751842694840"
+      }]
+}

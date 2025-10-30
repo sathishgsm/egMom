@@ -1,0 +1,8 @@
+{
+
+                "title":"gateway status -GWHINST",
+                "className":"widget1",
+                "condition":"Is gateway active?",
+                "state":"Healthy"
+            
+}
