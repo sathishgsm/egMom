@@ -1,9 +1,9 @@
 {
     "currentStatus": [
-       
+   
         {
             "name": "Normal",
-            "color": "#0c9a12",
+            "color": "#429371",
             "data": [
                 23
             ]
@@ -17,21 +17,21 @@
         },
         {
             "name": "Minor",
-            "color": "#ccc100",
+            "color": "#CBB32D",
             "data": [
                 34
             ]
         },
         {
             "name": "Major",
-            "color": "#fa9d1c",
+            "color": "#F99D20",
             "data": [
                 12
             ]
         },
          {
             "name": "Critical",
-            "color": "#cd0f0f",
+            "color": "#B72205",
             "data": [
                 12
             ]
